@@ -4,7 +4,13 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "A5")
+  (title_block
+    (title "TRS-80 Color Computer Keyboard Adapter for PS/2")
+    (date "2023-11-09")
+    (rev "0")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -69,9 +75,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Fabrication/")
     )
   )
 
@@ -1488,6 +1494,9 @@
 
   (gr_rect (start 79.094941 45.72) (end 113.03 85.09)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 5321e4d5-5c93-43b5-baa2-f89202a4574c))
+  (gr_text "https://github.com/costarc/TRS80-Color_KeyboardToPS2" (at 86.729835 48.49804 90) (layer "B.SilkS") (tstamp 04349060-5f0b-4c73-8c4d-abf87e11d689)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
+  )
   (gr_text "CP-400 Color II to PS/2\nKeyboard Controller" (at 95.440922 64.704992 90) (layer "B.SilkS") (tstamp 301f3338-666a-49d4-8655-27ab6c46f3db)
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom mirror))
   )
